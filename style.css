@@ -1,9 +1,28 @@
-h2 {
-    text-align: center;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #191970
+}
+
+#menu {
+    background-color: #FF4500;
+    padding-left: 20px;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+
+
+h2 {
+    text-align: center;
 }
