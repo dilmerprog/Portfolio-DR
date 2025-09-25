@@ -28,8 +28,15 @@ body {
     display: inline-block;
     font-family: sans-serif;
     font-size: 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
 }
 
+#menu ul li a:hover {
+    background-color: #191970;
+    color: #b187fe;
+    box-shadow: 0 0 10px #020103;
+}
 
 h2 {
     text-align: center;
