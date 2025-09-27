@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-
-
+/*cofigurações do menu*/
 #menu {
     text-align: center;
     background-color: #FF4500;
@@ -36,6 +35,7 @@
     color: #b187fe;
     box-shadow: 0 0 10px #020103;
 }
+/*termino do menu*/
 
 h2 {
     font-familY: verdana;
@@ -57,7 +57,28 @@ h2 {
 }
 
 .conteudo {
-  background: rgba(0,0,0,0.5); /* fundo semi-transparente para destacar o texto */
+  background: rgba(0,0,0,0.5); 
   padding: 20px;
   border-radius: 10px;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 12px 24px;
+    background: #FF4500;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+
+/*Ainda falta arrumar*/
+.botao:hover {
+    background-color: #191970;
+    color: #b187fe;
+    box-shadow: 0 0 10px #020103;
 }
