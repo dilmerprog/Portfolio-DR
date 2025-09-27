@@ -4,11 +4,10 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #191970
-}
+
 
 #menu {
+    text-align: center;
     background-color: #FF4500;
     padding-left: 20px;
 }
@@ -39,6 +38,26 @@ body {
 }
 
 h2 {
+    font-familY: verdana;
     text-align: center;
-    font-size: 29px;
+    font-size: 40px;
+}
+
+#inicio {
+  height: 100vh; /* ocupa a tela toda */
+  background-image: url("img/img.png"); 
+  background-size: cover; /* cobre toda a tela */
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 25px; 
+}
+
+.conteudo {
+  background: rgba(0,0,0,0.5); /* fundo semi-transparente para destacar o texto */
+  padding: 20px;
+  border-radius: 10px;
 }
