@@ -22,7 +22,7 @@
 #menu ul li a {
     text-decoration: none;
     color: #FFD700;
-    padding: 30px;
+    padding: 12px 20px;
     display: inline-block;
     font-family: sans-serif;
     font-size: 20px;
@@ -32,19 +32,19 @@
 
 #menu ul li a:hover {
     background-color: #191970;
-    color: #b187fe;
+    color: #ffffff;
     box-shadow: 0 0 10px #020103;
 }
 /*termino do menu*/
 
 h2 {
-    font-familY: verdana;
+    font-familY: verdana, sans-serif;
     text-align: center;
     font-size: 40px;
 }
 
 #inicio {
-  height: 100vh; /* ocupa a tela toda */
+  min-height: 100vh; /* ocupa a tela toda */
   background-image: url("img/img.png"); 
   background-size: cover; /* cobre toda a tela */
   background-position: center;
@@ -57,10 +57,11 @@ h2 {
 }
 
 .conteudo {
-  background: rgba(0,0,0,0.5); 
-  padding: 20px;
-  border-radius: 10px;
+  background: rgba(0,0,0,0.5); /* caixa com fundo preto transparente */
+  padding: 20px; /* espaço interno */
+  border-radius: 10px; /* cantos arredondados */
 }
+
 
 .botao {
     display: inline-block;
@@ -74,11 +75,16 @@ h2 {
     transition: 0.3s;
 }
 
-
-
-/*Ainda falta arrumar*/
 .botao:hover {
     background-color: #191970;
-    color: #b187fe;
+    color: #ffffff;
     box-shadow: 0 0 10px #020103;
+    transform: scale(1.05);
+}
+
+.dev {
+  max-width: 50%;        /* ocupa metade da tela */
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
