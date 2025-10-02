@@ -140,13 +140,14 @@ h2 {
 
 #desccririon {
     background: #000000;
-    border-radius: 70px;
+    border-radius: 12px;
     font-size: 20px;
     margin: 10px 0;
     color: #f2f2f3
 }
 
-#desccririon h4 {
+#desccririon h1 {
+    font-size: 25px;
     color: #FF4500;
 }
 
