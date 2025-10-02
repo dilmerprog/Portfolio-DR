@@ -56,9 +56,9 @@ h2 {
 }
 
 .conteudo {
-  background: rgba(0,0,0,0.5); /* caixa com fundo preto transparente */
-  padding: 20px; /* espaço interno */
-  border-radius: 10px; /* cantos arredondados */
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 
