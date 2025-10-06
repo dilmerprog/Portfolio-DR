@@ -146,6 +146,14 @@ h2 {
     color: #f2f2f3
 }
 
+#desccririon img {
+    width: 400px;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
 #desccririon h1 {
     font-size: 25px;
     color: #FF4500;
